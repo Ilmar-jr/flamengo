@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    
+}
+
+/*Se a padding propriedade tiver quatro valores:
+
+preenchimento: 25px 50px 75px 100px;
+o preenchimento superior é 25px
+o preenchimento direito é 50px
+o preenchimento inferior é 75px
+o preenchimento esquerdo é 100px 
+
+preenchimento: 25px 50px 75px;
+o preenchimento superior é 25px
+os preenchimentos direito e esquerdo são 50px
+o preenchimento inferior é 75px
+
+preenchimento: 25px 50px;
+os preenchimentos superior e inferior são 25px
+os preenchimentos direito e esquerdo são 50px*/
+
+.fundo{
+    background-color: #c2bebe;
+}
+
+.titulo-vermelho{
+    background-color: rgb(216, 13, 13);
+    height: 80px;
+    padding: 0 2rem;
+}
+
+.titulo-vermelho h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.titulo-preto{
+    background-color: black;
+    height: 40px;
+}
+
+.nav-itens{
+    position:absolute;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+   
+}
+
+.nav-itens li{
+    display: inline-block;
+}
+
+.nav-itens a{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.historia-container{
+    background-color: #000;
+    display: flex; /*colocar um do lado do outro*/
+    justify-content: space-between; /*espaçar os itens automaticamente conforme o tamanho da tela*/
+    width: 90%;
+    margin: 0px 50px 0px 60px; 
+}
+
+.historia-container p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px; /*esoaçamento entre os parágrafos*/
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 30px;
+   
+}
+
+.lista li{
+    font-size:15px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom:5px;
+}
+
+.lista{
+    margin: 50px auto 0;
+}
+
+.historia{
+    flex: 1; /*todos possuem o tamanho igual*/
+    max-width: 500px;
+    margin: 0 20px; /*afastar lateralmente um dos outros*/
+    
+}
+
+.titulo h1{
+    background-color: #333;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+.img-judas{
+    float: right;
+    width: 200px;
+    padding: 10px;
+}
+.img-1896{
+    float: none;
+    width: 300px;
+    padding: 10px;
+}
+
+.img{
+    margin: 0 1rem;
+    width: 50px;
+
+}
+
+footer{
+    background-color: #333;
+}
+
+footer p {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+table,td,th{
+    margin: 50px;
+    border:2px solid #000;
+    border-collapse: collapse;
+}
+
+table td{
+    width: 400px;
+    padding: 10px;
+}
+
+.tabela-titulos {
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+   
+}
+
+.tabela-titulos tr{
+    color: #000;
+}
+
+.mundial-1981{
+    width: 200px;
+}
+
+/*responsividade*/
+
+@media (max-width:1024px){
+    .escudo-flamengo{
+        width: 200px;
+    
+    }
+    
+}
