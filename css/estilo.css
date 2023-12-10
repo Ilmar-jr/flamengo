@@ -172,10 +172,68 @@ table td{
 
 /*responsividade*/
 
-@media (max-width:1024px){
+@media (max-width:425px){
+
     .escudo-flamengo{
         width: 200px;
+        margin: 5px 0 5px 20px;
+        }
     
+  
+    .historia-container{
+        flex-direction: column;
+        margin: 0 15px 0 15px;
+    }
+
+    .titulo-vermelho{
+        background-color: rgb(216, 13, 13);
+        height: 60px;
+        padding: 0 2rem;
+        width: 100%;
     }
     
+    .titulo-vermelho h1{
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 25px;
+    }
+
+    .titulo-preto{
+        background-color: black;
+        height: 30px;
+        width: 100%;
+    }
+
+    .historia-container p {
+        font-size: 11px;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 10px; /*esoaçamento entre os parágrafos*/
+        text-align: justify;
+        line-height: 1.5;
+        text-indent: 30px;
+}
+
+    .img-judas{
+        float: right;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .img-1896{
+        float: none;
+        width: 250px;
+        margin: 10px;
+    }
+
+    .img{
+        margin: 35px;
+        width: 100px;
+    
+    }
+
 }
